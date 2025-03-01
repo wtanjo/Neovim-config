@@ -1,5 +1,6 @@
-require("config.options")
 require("config.keymaps")
-require("config.lazy").setup({
-    {"folke/tokyonight.nvim"}
-})
+require("config.lazy")
+require("config.options")
+
+-- 开始时退回到E盘根目录
+vim.cmd[[cd..]]
