@@ -1,5 +1,4 @@
-return
-{
+return {
   "folke/which-key.nvim",
   event = "VeryLazy",
   opts = {
@@ -22,5 +21,6 @@ return
   },
   config = function()
     require("which-key").setup()
-  end
+    require("transparent").clear_prefix("which-key")
+  end,
 }

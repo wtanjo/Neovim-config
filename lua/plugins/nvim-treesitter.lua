@@ -1,5 +1,4 @@
-return
-{
+return {
   "nvim-treesitter/nvim-treesitter",
   dependencies = { "HiPhish/rainbow-delimiters.nvim" },
   build = function()
@@ -13,8 +12,8 @@ return
       rainbow = {
         enable = true,
         extended_mode = true,
-        max_file_lines = nil
-      }
+        max_file_lines = nil,
+      },
     })
-  end
+  end,
 }

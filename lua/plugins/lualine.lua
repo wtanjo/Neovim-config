@@ -1,10 +1,10 @@
-return
-{
-  'nvim-lualine/lualine.nvim',
-  dependencies = { 'nvim-tree/nvim-web-devicons' },
+return {
+  "nvim-lualine/lualine.nvim",
+  dependencies = { "nvim-tree/nvim-web-devicons" },
   config = function()
     require("lualine").setup({
-      options = { theme = 'tokyonight-moon' }
+      options = {},
     })
-  end
+    require("transparent").clear_prefix("lualine")
+  end,
 }

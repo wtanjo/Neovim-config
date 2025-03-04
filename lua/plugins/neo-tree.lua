@@ -1,9 +1,7 @@
-return
-{
+return {
   "nvim-neo-tree/neo-tree.nvim",
   branch = "v3.x",
-  dependencies =
-  {
+  dependencies = {
     "nvim-lua/plenary.nvim",
     "nvim-tree/nvim-web-devicons", -- not strictly required, but recommended
     "MunifTanjim/nui.nvim",
@@ -14,5 +12,7 @@ return
     -- 用Space + D显示文档树
     vim.keymap.set("n", "<leader>d", ":Neotree<CR>")
     vim.keymap.set("n", "<leader>c", ":Neotree close<CR>")
-  end
+    require("transparent").clear_prefix("NeoTree")
+  end,
 }
+
