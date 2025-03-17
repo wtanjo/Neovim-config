@@ -20,10 +20,8 @@ return {
     -- Define your formatters
     formatters_by_ft = {
       lua = { "stylua" },
-      python = { "blue" },
       c = { "clang-format" },
       cpp = { "clang-format" },
-      cs = { "csharpier" },
       latex = { "tex-fmt" },
     },
     -- Set default options

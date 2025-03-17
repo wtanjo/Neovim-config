@@ -12,7 +12,6 @@ return {
     -- 用Space + D显示文档树
     vim.keymap.set("n", "<leader>d", ":Neotree<CR>")
     vim.keymap.set("n", "<leader>c", ":Neotree close<CR>")
-    require("transparent").clear_prefix("NeoTree")
   end,
 }
 

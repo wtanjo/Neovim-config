@@ -21,6 +21,5 @@ return {
   },
   config = function()
     require("which-key").setup()
-    require("transparent").clear_prefix("which-key")
   end,
 }

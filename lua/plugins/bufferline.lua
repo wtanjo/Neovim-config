@@ -7,6 +7,5 @@ return {
     vim.keymap.set("n", "<C-c>", ":bdelete<CR>")
     vim.keymap.set("n", "<A-j>", ":BufferLineCyclePrev<CR>")
     vim.keymap.set("n", "<A-k>", ":BufferLineCycleNext<CR>")
-    require("transparent").clear_prefix("BufferLine")
   end,
 }

@@ -15,7 +15,7 @@ return
 
     require("mason-lspconfig").setup({
       automatic_installation = true,
-      ensure_installed = { "clangd", "csharp_ls", "texlab", "lua_ls", "pyright" }
+      ensure_installed = { "clangd", "texlab", "lua_ls" }
     })
   end
 }
